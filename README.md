@@ -65,7 +65,7 @@ Type messages below. Type 'exit' to quit.
 
 ## 🧠 How It Works
 
-SecureLink uses **UDP broadcast** to send messages to the IP `224.0.0.1` on port `5005`. All clients join this multicast group and listen for messages, making it ideal for LAN-only communication.
+SecureLink uses **UDP broadcast** to send messages to the IP `224.0.0.1` on port `5005`. All clients join this broadcast group and listen for messages, making it ideal for LAN-only communication.
 
 ---
 
